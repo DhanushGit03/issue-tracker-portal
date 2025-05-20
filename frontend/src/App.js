@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import IssueForm from './backend/components/IssueForm';
-import IssueList from './backend/components/IssueList';
+import IssueForm from './components/IssueForm';
+import IssueList from './components/IssueList';
 
 function App() {
   const [refresh, setRefresh] = useState(false);
